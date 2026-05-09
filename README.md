@@ -100,3 +100,4 @@ case-specific reports;
 .sha256 output files.
 
 The .gitignore file is configured to exclude these artifacts.
+# NFC-forensic-lab-tool
