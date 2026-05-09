@@ -1,0 +1,39 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Forensic outputs
+dumps/*
+!dumps/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Sensitive key material
+keys/*.json
+keys/*keys*.json
+keys/*secret*.json
+keys/*real*.json
+
+# Allow only templates
+!keys/templates/
+!keys/templates/*.json
+!keys/README.md
+
+# Hash/output artifacts
+*.sha256
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF

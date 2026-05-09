@@ -1,0 +1,26 @@
+{
+  "source": "external_authorized_laboratory_key_recovery_or_key_provision_phase",
+  "description": "Fill this file only with keys that were lawfully provided or recovered during an explicitly authorized laboratory phase.",
+  "uid": "REPLACE_WITH_CARD_UID",
+  "notes": [
+    "This file is used only for authorized MIFARE Classic acquisition.",
+    "The acquisition script does not perform brute force, cracking, nested attacks, hardnested attacks or cloning.",
+    "Use sector='all' only when the same key is known to apply to every sector.",
+    "Do not leave placeholder keys in this file.",
+    "Do not commit real keys to Git."
+  ],
+  "keys": [
+    {
+      "sector": "all",
+      "key_type": "A",
+      "key": "REPLACE_WITH_12_HEX_CHARS",
+      "comment": "Replace with an authorized key or remove this entry."
+    },
+    {
+      "sector": 0,
+      "key_type": "A",
+      "key": "REPLACE_WITH_12_HEX_CHARS",
+      "comment": "Example sector-specific entry. Replace or remove."
+    }
+  ]
+}
