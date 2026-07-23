@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Local forensic outputs and sensitive key material
+dumps/
+keys/
+*.bin
+*.eml
+*.log
+*.sha256
+
+# Local environment configuration
+.env
